@@ -120,7 +120,7 @@ class Map extends React.Component {
             break
           }
 
-          case clusterSize == 3: {
+          case clusterSize === 3: {
             geojson = polygon(
               featureCollection(clustersNoiseEdges[clusterObj]),
               {
